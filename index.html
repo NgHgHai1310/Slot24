@@ -1,81 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="stylesheet" href="style.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Form Validation</title>
-    </head>
-    <body>
-        <div class="social">
-            <h1>Create Account</h1>
-            <div class="question">
-                Get started width you free account <br />
-            </div>
-            <div class="btn">
-                <div class="btn-1">
-                    <i class="fa-brands fa-twitter"></i>
-                            Login via twitter
-                </div>
-                <div class="btn-2">
-                    <i class="fa-brands fa-facebook-f"></i>
-                            Login via facebook
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NgHgHai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="form">
+        <h2 class="create">Create Account</h2>
+        <p class="get-start">Get started with your free account</p>
+        <div class="aa1">
+            <div class="icon-twitter">
+                <i class="fab fa-twitter"></i>
+                <button class="twitter">Login via Twitter</button>
             </div>
         </div>
-        <div class="or"> OR</div>
+        <div class="aa2">
+            <div class="icon-fb">
+                <i class="fab fa-facebook-f"></i>
+                <button class="facebook">Login via Facebook</button>
+            </div>
         </div>
+
+        <p class="or">OR</p>
+        <div class="username">            
+            <input type="text" class="input-user" placeholder="Full name">
+            <i class="fas fa-user"></i>
+
+        </div>
+        <div class="email">
+            <input type="email" class="input-email" placeholder="Email address">
+            <i class="fas fa-envelope"></i>
+        </div>
+        <div class="phone">
+            <input type="number" class="phone-number" placeholder="Phone number">
+            <i class="fas fa-phone"></i>
         
-            <div>
-                <label for="username"></label>
-                <i class="fas fa-user"></i>
-                <input placeholder="Full name" type="text" name="username" id="username" placeholder="James Bond">
-                <div class="error"></div>
-            </div>
-            <div>
-                <label for="email"></label>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="far fa-evelope"></i>
-                <input placeholder="Email address" type="text" name="email" id="email" placeholder="abc@email.com">
-                <div class="error"></div>
-            </div>
-            <div>
-                <i class="fa-solid fa-phone-flip"></i>
-                <select>
-                    <option>+84</option>
+                <select name="" id="" class="select-phone">
+                    <option value="">+84</option>
                 </select>
-                <input placeholder="Phone number" type="tel" name="" id="arl">
-                
-            </div>
-            <select class="form-control">
-                <option selected=""> Select job type</option>
+        </div>
+        <div class="job-type">
+            
+            <select name="" id="" class="job-select">
+                <option selected="" >Select job type</option>
                 <option>Designer</option>
-                <option>manager</option>
-                <option>Acccaunting</option>
+                <option>Manager</option>
+                <option>Accaunting</option>
             </select>
-            <div>
-                <label for="password"></label>
-                <i class="far fa-evelope"></i>
-                <i class="fa-solid fa-lock"></i>
-                <input placeholder="Create password" type="password " name="password" id="password">
-                
-                <div class="error"></div>
-            </div>
-            <div>
-                <label for="password"></label>
-                <i class="far fa-evelope"></i>
-                <i class="fa-solid fa-lock"></i>
-                <input placeholder="Repeat password" type="password" name="password" id="password">
-                
-                <div class="error"></div>
-            </div>
+            <i class="fas fa-hotel"></i>
         </div>
-        <button class="aaa"  id="btn" type="submit">Create Account</button>
-        <div class="question"> Have an account? <span>Sign In</span>
+        <div class="password">
+            <input type="password" class="input-pass" placeholder="Creat password">
+            <i class="fas fa-lock"></i>
+        </div>
+        <div class="repeat-password">
+            <input type="password" class="input-repass" placeholder="Repeat password">
+            <i class="fas fa-lock"></i>
         </div>
 
-
-    </body>
+        <input class="creat-btn" type="submit" value="Creat account">
+        <div class="have-an-account">
+            <span class="Have-account">Have an account?</span>
+            <a href="" style="text-decoration: none;">Log in</a>
+        </div>
+    </div>
+</body>
 </html>

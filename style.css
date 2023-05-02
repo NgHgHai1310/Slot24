@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 17px;
     background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,156 @@ body {
     margin: 0;
 }
 
-.btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15px;
+div.form {
+    margin-top: 60px;
+    position: absolute;
+
+    width: 300px;
+    right: 50%;
+    transform: translateX(50%);
 }
-.btn-1,
-.btn-2,
-.aaa {
-    padding: 10px 5px;
+
+.create {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.get-start {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.aa1 {
+    position: relative;
+    background-color: #25a7f8;
+    height: 36px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.icon-twitter {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 25%;
+}
+
+.aa2 {
+    position: relative;
+    background-color: #2d4d93;
+    height: 36px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.icon-fb {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 25%;
+}
+.fa-twitter, .fa-facebook-f, .twitter, .facebook {
+    color: #fff;
+}
+.twitter {
+    border: 0px;
+    background-color: #25a7f8;
+}
+
+.facebook {
+    border: 0px;
+    background-color: #2d4d93;
+}
+
+.or {
+    font-size: 12px;
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.username, .email, .phone, .job-type, .password, .repeat-password {
+    height: 36px;
+
+    position: relative;
+    margin-top: 8px;
+}
+.fa-user, .fa-envelope, .fa-phone, .fa-hotel, .fa-lock {
+    position: absolute;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    background-color: #cccccc;
+    padding: 10px 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.input-user, .input-email, .phone-number, .input-pass, .input-repass {
+    position: absolute;
     width: 100%;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #fefefe;
-    border-radius: 8px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-.btn-2{
-    background-color: rgb(0, 132, 255);
-    color: white;
-}
-.btn-1{
-    background-color: rgb(0, 188, 188);
-    color: white;
-}
-.aaa{
-    background-color: rgb(0, 132, 255);
-    color: white;
+    box-sizing: border-box;
+    padding-left: 40px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
 }
 
+.phone-number {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 120px;
+    height: 100%;
+    border: 1px solid #cccccc;
+}
 
+.select-phone {
+    position: absolute;
+    height: 36px;
+    box-sizing: border-box;
+    left: 36px;
+    width: 80px;
+    border-color:#cccccc;
 
+}
+.job-select {
+    position: absolute;
+    padding-left: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border-color:#cccccc;
+}
+.creat-btn {
+    position: relative;
+    background-color: #3d75f0;
+    height: 36px;
+    margin: 8px 0;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+}
 
+.have-an-account {
+    text-align: center;
+    margin-top: 8px;
+}
 
-
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: rgb(19, 199, 215);
+  }
+  
+  a:hover {
+    color: rgb(243, 255, 22);
+  }
+  
+  a:active {
+    color: blue;
+  }
